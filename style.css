@@ -14,6 +14,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: fixed;
+    width: 100%;
 }
 ul{
     display: flex;
@@ -91,3 +93,45 @@ text-align: center;
     padding-top: 60px;
 }
 
+/* Responsivité de la plateforme */
+
+@media screen and (max-width:1050px){
+    .title{
+        font-size: 3.5rem;
+    }
+    
+}
+/* Responsivité de la plateforme */
+@media screen and (max-width:700px){
+    .title{
+        font-size: 3rem;
+    }
+    .stitle{
+        font-size: 1rem;
+    }
+    p{
+        font-size:0.5rem
+    }
+    .foot{
+        border: solid 2px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .right{
+        width: 50%;
+    }
+}
+    /* Responsivité de la plateforme */
+@media screen and(max-width:850px){
+    .title{
+        font-size: 3rem;
+    }
+    .stitle{
+        font-family: 1rem;
+    }
+    li{
+        font-size: 0.8rem;
+    }
+}

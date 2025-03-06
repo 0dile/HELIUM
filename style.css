@@ -135,3 +135,12 @@ text-align: center;
         font-size: 0.8rem;
     }
 }
+
+nav {
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav.scrolled {
+    background-color: rgba(100, 100, 100, 0.8); /* Gris avec transparence */
+    backdrop-filter: blur(5px);
+}
